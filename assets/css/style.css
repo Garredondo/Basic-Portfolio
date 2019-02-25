@@ -45,6 +45,7 @@ nav {
     background-color: white;
 }
 
+/* Nav Bar */
 ul {
     float: right;
     background-color: white;
@@ -64,10 +65,21 @@ ul li a {
     padding-left: 10px;
 }
 
+/* Name Logo */
 h2 {
     color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
     padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+h2:after {
+    content: ' ';
+    display: block;
+    border: 2px solid #dddddd;
+    width: 900px;
+    margin: 0 auto;
 }
 
 #me {
@@ -79,6 +91,14 @@ h2 {
     float: right;
 }
 
+/* Contact Form */
+
+.container-form {
+    display: inline-block;
+    padding: 15px
+}
+
+/* Footer */
 footer {
     width: 100%;
     height: 100px;
@@ -88,4 +108,21 @@ footer {
     position: relative;
     margin-top: -100px;
     clear: both;
+}
+
+.projects img {
+    z-index: 0;
+}
+.projects label{
+    color: green;
+    background-color: bisque;
+    width: 100px;
+    padding: 5px;
+    z-index: 1;
+}
+
+
+p {
+    word-wrap: break-word;
+    float: right;
 }
